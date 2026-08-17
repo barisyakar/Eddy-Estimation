@@ -1,0 +1,52 @@
+.DS_Store
+*.asv
+*.m~
+*.log
+*.aux
+*.out
+/tmp/
+/output/
+
+# Source observations and manuscript material are not part of the public release.
+/data/
+/Mathematica/
+/paper/
+/overleaf*/
+
+# Internal validation runs contain intermediate results and local provenance.
+/reruns/
+/run_paper_validation.m
+
+# Keep only the two explicitly released constant-background simulations.
+/exp_kernel/results/**
+!/exp_kernel/results/Lifetime-first14days/
+!/exp_kernel/results/Lifetime-first14days/validation/
+!/exp_kernel/results/Lifetime-first14days/validation/sim_catalog.mat
+!/exp_kernel/results/Lifetime-last14days/
+!/exp_kernel/results/Lifetime-last14days/validation/
+!/exp_kernel/results/Lifetime-last14days/validation/sim_catalog.mat
+
+# Fitted workspaces are omitted; numerical summaries and final figures are kept.
+/time_varying_intensity/results*/
+
+# Keep exactly the figure PDFs referenced by the current Overleaf manuscript.
+/figures/*
+!/figures/acf15min-Lifetime-first14days.pdf
+!/figures/acf15min-Lifetime-last14days.pdf
+!/figures/acf1_of_aggregatedwindows-Lifetime-first14days.pdf
+!/figures/acf1_of_aggregatedwindows-Lifetime-last14days.pdf
+!/figures/fig_eddy_dist-Lifetime-first14days.pdf
+!/figures/fig_eddy_dist-Lifetime-last14days.pdf
+!/figures/fig_eddy_dist_3d-Lifetime-first14days.pdf
+!/figures/fig_eddy_dist_3d-Lifetime-last14days.pdf
+!/figures/lifetime_survival_comparison.pdf
+!/figures/real_191-41.pdf
+!/figures/real_191-42.pdf
+!/figures/sim_intensity_comparison-Lifetime-first14days.pdf
+!/figures/sim_intensity_comparison-Lifetime-last14days.pdf
+!/figures/simulated_191-252.pdf
+!/figures/simulated_191-253.pdf
+!/figures/timevarying_arrivals_observed_simulated_4h.pdf
+!/figures/timevarying_arrivals_observed_simulated_8h.pdf
+!/figures/timevarying_background_volterra_4h.pdf
+!/figures/timevarying_background_volterra_8h.pdf

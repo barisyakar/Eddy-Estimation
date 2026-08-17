@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+type: software
+title: "A Self-Exciting Model of Eddy Formation at Submesoscale"
+authors:
+  - family-names: "Çağlar"
+    given-names: "Mine"
+  - family-names: "Yakar"
+    given-names: "Barış Samed"
+repository-code: "https://github.com/barisyakar/Eddy-Estimation"
