@@ -83,16 +83,9 @@ The constant-background representative estimates are:
 
 ## Source data
 
-The VHF-radar fields, processed observational event catalogs, and Mathematica
-files are not included because they are subject to separate data-sharing
+The VHF-radar fields, processed observational event catalogs are not included because they are subject to separate data-sharing
 conditions. Re-estimation and regeneration of observation-derived figures
-require authorized copies of:
-
-```text
-data/Lifetime-first14days.txt
-data/Lifetime-last14days.txt
-```
-
+require authorized copies of these files.
 The repository includes the final figure PDFs so the paper can be compiled
 without those source observations. The two simulated velocity panels can be
 rebuilt directly from the included synthetic catalog.
